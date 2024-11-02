@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpaper.forfun.com/fetch/31/313cb357d354ed5b629d22960302d30f.jpeg?w=1470&r=0.5625);
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.lol {
+  color: azure;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 20px;
+  margin: 10px auto;
+  width: 100px;
+  padding: 10px;
+  box-shadow: 10px 0px 10px #8b8888;
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.top button {
+  width: 70px;
+  height: 70px;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(92, 92, 92);
+  cursor: pointer;
+}
+
+.smth {
+  opacity: 60%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -100%;
+  margin-top: 100px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  height: 250px;
+  transition: 900ms;
+  box-shadow: 10px 5px 5px #ccc;
+}
+
+.flex button {
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(44, 43, 43);
+  color: azure;
+  padding: 10px;
+}
